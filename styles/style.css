@@ -23,6 +23,10 @@ button {
     padding: 3% 15%;
 }
 
+.thin {
+    padding:3% 20%;
+}
+
 /* ----------------------------------------------Header Area---------------------------------------------- */
 header {
     display:flex;
@@ -99,6 +103,63 @@ h2 {
     border-radius: 10px;
 }
 /* ----------------------------------------------End Hero area---------------------------------------------- */
+
+/* ----------------------------------------------Tile area---------------------------------------------- */
+.tiles {
+    background-color:blanchedalmond;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:32px;
+    padding-top: 8%;
+    padding-bottom:8%;
+}
+
+.tilecontainer {
+    display:flex;
+    justify-content: space-evenly;
+    gap:32px;
+}
+
+.tileimage {
+    width:100%;
+    height: auto;
+    border-radius: 15px;
+    border:3px solid white;
+}
+
+.tiletext {
+    color:black;
+    text-align: center;
+}
+
+
+
+/* ----------------------------------------------End tile area---------------------------------------------- */
+
+/* ----------------------------------------------Quote area---------------------------------------------- */
+.quote {
+    background-color: #E5E7EB;
+    padding-top:8%;
+    padding-bottom:8%;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color:black;
+}
+
+.quotename {
+    text-align: right;
+    color: black;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+
+/* ----------------------------------------------End quote area---------------------------------------------- */
 
 /* ----------------------------------------------Action (signup) area---------------------------------------------- */
 .action {
