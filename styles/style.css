@@ -6,12 +6,35 @@ html, body {
 }
 
 /* Type declarations */
+p {
+    color:#E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding:8px 32px;
+    color:#E5E7EB;
+    font-size:16px;
+    font-weight: bold;
+}
+
+.thicc {
+    padding: 3% 15%;
+}
+
+/* ----------------------------------------------Header Area---------------------------------------------- */
 header {
     display:flex;
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
     padding: 16px 15%;
+}
+
+.logo {
+    font-size:24px;
+    color:#f9f8fa;
 }
 
 ul {
@@ -25,58 +48,26 @@ a {
     font-size: 18px;
     text-decoration: none;
 }
+/* ----------------------------------------------End Header Area---------------------------------------------- */
 
+/* ----------------------------------------------Hero Area---------------------------------------------- */
+.hero {
+    display:flex;
+    align-items: center;
+    gap:32px;
+    background-color: #1F2937;
+
+}
+/* .herohead */
 h2 {
     font-size:48px;
     font-weight: bolder;
     padding:0;
     margin:0;
-}
-
-h4 {
-    font-size: 24px;
-    font-weight: bolder;
-    margin: 0;
-}
-
-footer {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #1f2937;
-    color:#E5E7EB;
-    padding:32px 0px;
-    font-size:18px;
-}
-
-button {
-    background-color: #3882F6;
-    border-radius: 10px;
-    padding:8px 32px;
-    color:#E5E7EB;
-    font-size:16px;
-    font-weight: bold;
-}
-
-
-
-.logo {
-    font-size:24px;
     color:#f9f8fa;
 }
 
-.thicc {
-    background-color: burlywood;
-    padding: 3% 15%;
-}
-
-.hero {
-    display:flex;
-    align-items: center;
-    gap:32px;
-}
-
-.left {
+.heroleft {
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -87,9 +78,10 @@ button {
 
 .herobutton {
     align-self: flex-start;
+    border:1px solid transparent;
 }
 
-.right {
+.heroright {
     display: flex;
     justify-content: center;
     flex:1 1 auto;
@@ -104,16 +96,18 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: cadetblue;
+    border-radius: 10px;
 }
+/* ----------------------------------------------End Hero area---------------------------------------------- */
 
-.signup {
+/* ----------------------------------------------Action (signup) area---------------------------------------------- */
+.action {
     background-color: #f9f8fa;
     padding-top:5%;
     padding-bottom: 5%;
 }
 
-.signupcontainer {
+.actioncontainer {
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -123,16 +117,36 @@ button {
     padding: 64px 84px;
 }
 
-.signuptext {
+.actionmain {
     display:flex;
     flex-direction: column;
 }
 
-.signupbutton {
-    border:1px solid white;
+/* .actionhead */
+h4 {
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 0;
 }
 
-.clickthatbutton {
+.actiontext {
     padding:0;
     margin:0;
 }
+
+.actionbutton {
+    border:1px solid white;
+}
+/* ----------------------------------------------End action area---------------------------------------------- */
+
+/* ----------------------------------------------Footer---------------------------------------------- */
+footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color:#E5E7EB;
+    padding:32px 0px;
+    font-size:18px;
+}
+/* ----------------------------------------------End footer---------------------------------------------- */
