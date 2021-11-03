@@ -33,6 +33,11 @@ h2 {
     margin:0;
 }
 
+h4 {
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 0;
+}
 
 footer {
     display:flex;
@@ -42,6 +47,15 @@ footer {
     color:#E5E7EB;
     padding:32px 0px;
     font-size:18px;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding:8px 32px;
+    color:#E5E7EB;
+    font-size:16px;
+    font-weight: bold;
 }
 
 
@@ -58,7 +72,6 @@ footer {
 
 .hero {
     display:flex;
-    justify-content: space-evenly;
     align-items: center;
     gap:32px;
 }
@@ -72,14 +85,8 @@ footer {
     padding:36px 36px 36px 0px;
 }
 
-button {
-    background-color: #3882F6;
+.herobutton {
     align-self: flex-start;
-    border-radius: 10px;
-    padding:8px 32px;
-    color:#E5E7EB;
-    font-size:16px;
-    font-weight: bold;
 }
 
 .right {
@@ -98,4 +105,34 @@ button {
     align-items: center;
     justify-content: center;
     background-color: cadetblue;
+}
+
+.signup {
+    background-color: #f9f8fa;
+    padding-top:5%;
+    padding-bottom: 5%;
+}
+
+.signupcontainer {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color:#E5E7EB;
+    padding: 64px 84px;
+}
+
+.signuptext {
+    display:flex;
+    flex-direction: column;
+}
+
+.signupbutton {
+    border:1px solid white;
+}
+
+.clickthatbutton {
+    padding:0;
+    margin:0;
 }
