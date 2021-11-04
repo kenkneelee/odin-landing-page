@@ -218,3 +218,29 @@ footer {
     font-size:18px;
 }
 /* ----------------------------------------------End footer---------------------------------------------- */
+
+/* ----------------------------------------------Simple media query ------------------------------------- */
+@media (max-width:800px) {
+    .hero, .tilecontainer,.actioncontainer {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .heroleft, .heroright {
+        padding:36px;
+        text-align: center;
+    }
+
+    .herobutton {
+        align-self: center;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .actioncontainer {
+        gap:32px;
+    }
+}
+
